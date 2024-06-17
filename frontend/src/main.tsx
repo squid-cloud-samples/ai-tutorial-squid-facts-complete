@@ -8,7 +8,7 @@ ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
     options={{
       appId: import.meta.env.VITE_SQUID_APP_ID,
       region: import.meta.env.VITE_SQUID_REGION,
-      environmentId: import.meta.env.VITE_SQUID_ENVIRONMENT_ID,
+      environmentId: 'prod',
     }}
   >
     <App />
